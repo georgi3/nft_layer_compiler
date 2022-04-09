@@ -1,0 +1,23 @@
+{
+    "image": "https://gateway.pinata.cloud/ipfs/QmXYCD1mp9krdr2tUcyb6kkohbrRxj4qSABckJoUJGxaPs/11.png",
+    "tokenID": 11,
+    "name": "Zaporoszhskiy Cossack 11",
+    "attributes": [
+        {
+            "pants": "pants_1.png",
+            "boots": "boots_3.png",
+            "shirts": "shirt_3.png",
+            "body": "body.png",
+            "head": "head.png",
+            "ears": "ears.png",
+            "eyes": "eyes.png",
+            "brows": "brows.png",
+            "lips": "lips.png",
+            "nose": "nose.png",
+            "crosses": "cross.png",
+            "belts": "belt.png",
+            "mustaches": "mustache_1.png",
+            "earrings": "earring_2.png"
+        }
+    ]
+}
