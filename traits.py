@@ -7,13 +7,29 @@ config = [
             {
                 'file': 'pants_1.png',
                 'name': 'pants_1',
-                'rarity': 0.6
+                'rarity': 0.3
             },
             {
                 'file': 'pants_2.png',
                 'name': 'pants_2',
-                'rarity': 0.4
-            }
+                'rarity': 0.25
+            },
+            {
+                'file': 'pants_3.png',
+                'name': 'pants_3',
+                'rarity': 0.2
+            },
+            {
+                'file': 'pants_4.png',
+                'name': 'pants_4',
+                'rarity': 0.15
+            },
+            {
+                'file': 'pants_5.png',
+                'name': 'pants_5',
+                'rarity': 0.1
+            },
+
         ]
     },  # Pants
     {
@@ -44,7 +60,12 @@ config = [
             {
                 'file': 'boots_5.png',
                 'name': 'boots_5',
-                'rarity': 0.2
+                'rarity': 0.1
+            },
+            {
+                'file': 'boots_6.png',
+                'name': 'boots_6',
+                'rarity': 0.1
             }
         ]
     },  # Boots
@@ -56,22 +77,27 @@ config = [
             {
                 'file': 'shirt_1.png',
                 'name': 'shirt_1',
-                'rarity': 0.25
+                'rarity': 0.2
             },
             {
                 'file': 'shirt_2.png',
                 'name': 'shirt_2',
-                'rarity': 0.25
+                'rarity': 0.2
             },
             {
                 'file': 'shirt_3.png',
                 'name': 'shirt_3',
-                'rarity': 0.25
+                'rarity': 0.2
             },
             {
                 'file': 'shirt_4.png',
                 'name': 'shirt_4',
-                'rarity': 0.25
+                'rarity': 0.2
+            },
+            {
+                'file': 'shirt_5.png',
+                'name': 'shirt_5',
+                'rarity': 0.2
             }
         ]
     },  # Shirts
