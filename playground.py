@@ -24,10 +24,10 @@ im2 = Image.open('./cossack_mamai/shirt.png').convert('RGBA')
 im3 = Image.open('./cossack_mamai/pants.png').convert('RGBA')
 
 im4 = Image.open('./cossack_mamai/boots.png').convert('RGBA')
-im5 = Image.open('./cossack_mamai/head.png').convert('RGBA')
+im5 = Image.open('./cossack_mamai/upper_body.png').convert('RGBA')
 im6 = Image.open('./cossack_mamai/ears.png').convert('RGBA')
 
-im7 = Image.open('./cossack_mamai/eyes.png').convert('RGBA')
+im7 = Image.open('./cossack_mamai/eyes_1.png').convert('RGBA')
 im8 = Image.open('./cossack_mamai/brows.png').convert('RGBA')
 im9 = Image.open('./cossack_mamai/nose.png').convert('RGBA')
 

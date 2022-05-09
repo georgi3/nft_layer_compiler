@@ -8,8 +8,6 @@ import os
 from collections import Counter, defaultdict
 from meta import Meta
 import time
-
-from dudes import data
 from traits import config
 
 
@@ -97,31 +95,54 @@ class ImageComposer:
         :param args: takes an ordered list of images to be composed together
         :return: returns a composed png with an added random background
         """
-        n = lambda: random.randint(0, 256)
-        background = generate_background(dimension=2048, color=(n(), n(), n()))
+        n = lambda: random.randint(44, 256)
+
+        red = (255, 0, 0)
+        black = (0, 0, 0)
+
+        yellow = (255, 239, 0)
+        ublue = (0, 155, 255)
+
+
+        blue = (9, 41, 245)
+        uyellow = (225, 197, 93)
+
+        car_yellow = (239, 208, 70)
+        car_blue = (37, 86, 174)
+        b = (8, 90, 180)
+        y = (249, 215, 72)
+
+        color = random.choice(((blue, y), (red, black)))
+        background = generate_background(dimension=2048, color=color[0], second_color=color[1])
         for png in args:
             background = Image.alpha_composite(background, png)
-        return background.convert('RGB')
+        # background = Image.alpha_composite(args[0], args[1])
+        return background.convert('RGBA')
 
     def generate_png(self):
         """
-        :return: created and saves composed random png
+        :return: creates and saves composed random png
         """
         img_dic = self.selecting_images()
         images_list = [Image.open(f'./{folder_n}/{key}/{value}').convert('RGBA') for key, value in img_dic.items()]
+        # whites = [Image.open(f'./local/white/{n}.png').convert('RGBA') for n in ['body_1', 'scar']]
         composition = self.compose_png(*images_list)
-        # rgb_im.show()
+        # composition = self.compose_png(*whites)
+        # composition.show()
+
         file_name = str(list(self.all_images.values()).index(img_dic)) + ".png"
         composition.save("./images/" + file_name)
         self.store_metadata()
-        time.sleep(2)
 
 
 img = ImageComposer(config)
-for _ in range(40):
+for _ in range(200):
     img.generate_png()
 
-time.sleep(1)
+
+# img.generate_png()
+
+# time.sleep(1)
 all_meta = img.get_all_images()
 met = Meta(all_meta)
 met.gen_json()

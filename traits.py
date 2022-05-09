@@ -29,6 +29,24 @@ config = [
                 'name': 'pants_5',
                 'rarity': 0.1
             },
+            {
+                'file': 'pants_6.png',
+                'name': 'pants_6',
+                'rarity': 0.1
+            },            {
+                'file': 'pants_7.png',
+                'name': 'pants_7',
+                'rarity': 0.1
+            },            {
+                'file': 'pants_8.png',
+                'name': 'pants_8',
+                'rarity': 0.1
+            },
+            {
+                'file': 'pants_9.png',
+                'name': 'pants_9',
+                'rarity': 0.1
+            },
 
         ]
     },  # Pants
@@ -61,16 +79,38 @@ config = [
                 'file': 'boots_5.png',
                 'name': 'boots_5',
                 'rarity': 0.1
-            },
-            {
-                'file': 'boots_6.png',
-                'name': 'boots_6',
-                'rarity': 0.1
             }
         ]
     },  # Boots
     {
         'id': '3',
+        'folder': 'head',
+        'rarity': 1,
+        'attributes': [
+            {
+                'file': 'head_1.png',
+                'name': 'head_1',
+                'rarity': 0.4
+            },
+            {
+                'file': 'head_2.png',
+                'name': 'head_2',
+                'rarity': 0.3
+            },
+            {
+                'file': 'head_3.png',
+                'name': 'head_3',
+                'rarity': 0.3
+            },
+            {
+                'file': 'head_4.png',
+                'name': 'head_4',
+                'rarity': 0.3
+            }
+        ]
+    },  # Head
+    {
+        'id': '4',
         'folder': 'shirts',
         'rarity': 1,
         'attributes': [
@@ -98,41 +138,49 @@ config = [
                 'file': 'shirt_5.png',
                 'name': 'shirt_5',
                 'rarity': 0.2
+            },
+            {
+                'file': 'shirt_6.png',
+                'name': 'shirt_6',
+                'rarity': 0.2
+            },
+            {
+                'file': 'shirt_7.png',
+                'name': 'shirt_7',
+                'rarity': 0.2
+            },
+            {
+                'file': 'shirt_8.png',
+                'name': 'shirt_8',
+                'rarity': 0.2
+            },
+            {
+                'file': 'shirt_9.png',
+                'name': 'shirt_9',
+                'rarity': 0.3
             }
         ]
     },  # Shirts
     {
-        'id': '4',
-        'folder': 'body',
-        'rarity': 1,
-        'attributes': [
-            {
-                'file': 'body.png',
-                'name': 'body',
-                'rarity': 1
-            }
-        ]
-    },  # Body
-    {
         'id': '5',
-        'folder': 'head',
+        'folder': 'hands',
         'rarity': 1,
         'attributes': [
             {
-                'file': 'head.png',
-                'name': 'head',
+                'file': 'arms_1.png',
+                'name': 'arms_1',
                 'rarity': 1
             }
         ]
-    },  # Head
+    },  # hands
     {
         'id': '6',
         'folder': 'ears',
         'rarity': 1,
         'attributes': [
             {
-                'file': 'ears.png',
-                'name': 'ears',
+                'file': 'ears_1.png',
+                'name': 'ears_1',
                 'rarity': 1
             }
         ]
@@ -143,9 +191,44 @@ config = [
         'rarity': 1,
         'attributes': [
             {
-                'file': 'eyes.png',
-                'name': 'eyes',
-                'rarity': 1
+                'file': 'eyes_1.png',
+                'name': 'eyes_1',
+                'rarity': 0.2
+            },
+            {
+                'file': 'eyes_2.png',
+                'name': 'eyes_2',
+                'rarity': 0.2
+            },
+            {
+                'file': 'eyes_3.png',
+                'name': 'eyes_3',
+                'rarity': 0.2
+            },
+            {
+                'file': 'eyes_4.png',
+                'name': 'eyes_4',
+                'rarity': 0.2
+            },
+            {
+                'file': 'eyes_5.png',
+                'name': 'eyes_5',
+                'rarity': 0.2
+            },
+            {
+                'file': 'eyes_6.png',
+                'name': 'eyes_6',
+                'rarity': 0.2
+            },
+            {
+                'file': 'eyes_7.png',
+                'name': 'eyes_7',
+                'rarity': 0.2
+            },
+            {
+                'file': 'eyes_8.png',
+                'name': 'eyes_8',
+                'rarity': 0.2
             }
         ]
     },  # Eyes
@@ -155,10 +238,23 @@ config = [
         'rarity': 1,
         'attributes': [
             {
-                'file': 'brows.png',
-                'name': 'brows',
-                'rarity': 1
-            }
+                'file': 'brows_1.png',
+                'name': 'brows_1',
+                'rarity': 0.2
+            },
+            {
+                'file': 'brows_2.png',
+                'name': 'brows_2',
+                'rarity': 0.2
+            },            {
+                'file': 'brows_3.png',
+                'name': 'brows_3',
+                'rarity': 0.2
+            },            {
+                'file': 'brows_4.png',
+                'name': 'brows_4',
+                'rarity': 0.2
+            },
         ]
     },  # Brows
     {
@@ -167,8 +263,8 @@ config = [
         'rarity': 1,
         'attributes': [
             {
-                'file': 'lips.png',
-                'name': 'lips',
+                'file': 'lips_1.png',
+                'name': 'lips_1',
                 'rarity': 1
             }
         ]
@@ -179,22 +275,63 @@ config = [
         'rarity': 1,
         'attributes': [
             {
-                'file': 'nose.png',
-                'name': 'nose',
-                'rarity': 1
-            }
+                'file': 'nose_1.png',
+                'name': 'nose_1',
+                'rarity': 0.2
+            },
+            {
+                'file': 'nose_2.png',
+                'name': 'nose_2',
+                'rarity': 0.2
+            },
+            {
+                'file': 'nose_3.png',
+                'name': 'nose_3',
+                'rarity': 0.2
+            },
+            {
+                'file': 'nose_4.png',
+                'name': 'nose_4',
+                'rarity': 0.2
+            },
         ]
     },  # Nose
     {
         'id': '11',
         'folder': 'crosses',
-        'rarity': 1,
+        'rarity': 0.8,
         'attributes': [
             {
-                'file': 'cross.png',
-                'name': 'cross',
-                'rarity': 1
-            }
+                'file': 'cross_1.png',
+                'name': 'cross_1',
+                'rarity': 0.2
+            },
+            {
+                'file': 'cross_2.png',
+                'name': 'cross_2',
+                'rarity': 0.2
+            },            {
+                'file': 'cross_3.png',
+                'name': 'cross_3',
+                'rarity': 0.2
+            },            {
+                'file': 'cross_4.png',
+                'name': 'cross_4',
+                'rarity': 0.2
+            },            {
+                'file': 'cross_5.png',
+                'name': 'cross_5',
+                'rarity': 0.2
+            },
+            {
+                'file': 'cross_6.png',
+                'name': 'cross_6',
+                'rarity': 0.2
+            },            {
+                'file': 'cross_7.png',
+                'name': 'cross_7',
+                'rarity': 0.2
+            },
         ]
     },  # Cross
     {
@@ -203,10 +340,30 @@ config = [
         'rarity': 1,
         'attributes': [
             {
-                'file': 'belt.png',
-                'name': 'belt',
-                'rarity': 1
-            }
+                'file': 'belt_1.png',
+                'name': 'belt_1',
+                'rarity': 0.2
+            },
+            {
+                'file': 'belt_2.png',
+                'name': 'belt_2',
+                'rarity': 0.2
+            },
+            {
+                'file': 'belt_3.png',
+                'name': 'belt_3',
+                'rarity': 0.2
+            },
+            {
+                'file': 'belt_4.png',
+                'name': 'belt_4',
+                'rarity': 0.2
+            },
+            {
+                'file': 'belt_5.png',
+                'name': 'belt_5',
+                'rarity': 0.2
+            },
         ]
     },  # Belt
     {
@@ -233,13 +390,33 @@ config = [
                 'file': 'mustache_4.png',
                 'name': 'mustache_4',
                 'rarity': 0.25
+            },
+            {
+                'file': 'mustache_5.png',
+                'name': 'mustache_5',
+                'rarity': 0.25
+            },
+            {
+                'file': 'mustache_6.png',
+                'name': 'mustache_6',
+                'rarity': 0.25
+            },
+            {
+                'file': 'mustache_7.png',
+                'name': 'mustache_7',
+                'rarity': 0.25
+            },
+            {
+                'file': 'mustache_8.png',
+                'name': 'mustache_8',
+                'rarity': 0.25
             }
         ]
     },  # Mustaches
     {
         'id': '14',
         'folder': 'earrings',
-        'rarity': 1,
+        'rarity': 0.7,
         'attributes': [
             {
                 'file': 'earring_1.png',
@@ -265,22 +442,51 @@ config = [
 
         ]
     },  # Earrings
-
-    # {
-    #     'id': '4',
-    #     'folder': 'hair',
-    #     'rarity': 1,
-    #     'attributes': [
-    #         {
-    #             'file': 'hair_1.png',
-    #             'name': 'hair_1',
-    #             'rarity': 0.6
-    #         },
-    #         {
-    #             'file': 'hair_2.png',
-    #             'name': 'hair_2',
-    #             'rarity': 0.4
-    #         }
-    #     ]
-    # },  # Hair
+    {
+        'id': '15',
+        'folder': 'hair',
+        'rarity': 0.8,
+        'attributes': [
+            {
+                'file': 'hair_1.png',
+                'name': 'hair_1',
+                'rarity': 0.2
+            },
+            {
+                'file': 'hair_2.png',
+                'name': 'hair_2',
+                'rarity': 0.2
+            },
+            {
+                'file': 'hair_3.png',
+                'name': 'hair_3',
+                'rarity': 0.2
+            },
+            {
+                'file': 'hair_4.png',
+                'name': 'hair_4',
+                'rarity': 0.2
+            },
+            {
+                'file': 'hair_5.png',
+                'name': 'hair_5',
+                'rarity': 0.2
+            },
+            {
+                'file': 'hair_6.png',
+                'name': 'hair_6',
+                'rarity': 0.2
+            },
+            {
+                'file': 'hair_7.png',
+                'name': 'hair_7',
+                'rarity': 0.2
+            },
+            {
+                'file': 'hair_8.png',
+                'name': 'hair_8',
+                'rarity': 0.2
+            }
+        ]
+    },  # Hair
 ]
